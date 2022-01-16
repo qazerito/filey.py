@@ -1,2 +1,4 @@
 # SimpleFileSorter
-lightweight python file sorting script
+SFS is a lightweight file sorting script for arch based distrobutions.
+-
+It works by scanning through the /Downloads folder on your system and moving files based on file name extentions.
