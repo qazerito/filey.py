@@ -1,4 +1,8 @@
-# SimpleFileSorter
-SFS is a lightweight file sorting script for arch based distributions.
--
-It works by scanning through the /Downloads folder on your system and moving files based on file name extentions.
+#Filey
+Filey is an open-source file organiser for arch based distributions of Linux.
+
+#License
+Licenced under the GNU General Public License V3
+
+#Project status
+Being worked on as of 2022...
