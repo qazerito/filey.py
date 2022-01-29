@@ -10,7 +10,7 @@ class col:
     OKGREEN = '\033[92m'
 
 
-print(col.OKGREEN,"[FS] File Sorter V2")
+print(col.OKGREEN,"[Filey] Filey File Organiser V3")
 
 images = [".jpeg",".png",".jpg",".gif"]
 text = [".doc",".txt",".pdf",".xlsx",".docx",".xls",".rtf"]
@@ -23,28 +23,28 @@ for file in files:
         if file.endswith(ex):
             d = '/home/alex/Pictures'
             shutil.move(file,d)
-            print(" [FS]",file,">>",d)
+            print(" [Filey]",file,">>",d)
             break
 
     for ex in text:
         if file.endswith(ex):
             d = '/home/alex/Documents/Text Files'
             shutil.move(file,d)
-            print(" [FS]",file,">>",d)
+            print(" [Filey]",file,">>",d)
             break
 
     for ex in sounds:
         if file.endswith(ex):
             d = '/home/alex/Music'
             shutil.move(file,d)
-            print(" [FS]",file,">>",d)
+            print(" [Filey]",file,">>",d)
             break
 
     for ex in videos:
         if file.endswith(ex):
             d = '/home/alex/Videos'
             shutil.move(file,d)
-            print(" [FS]",file,">>",d)
+            print(" [Filey]",file,">>",d)
             break
             
-print(col.OKGREEN,"[FS] Completed Successfully")
+print(col.OKGREEN,"[Filey] Completed Successfully")
